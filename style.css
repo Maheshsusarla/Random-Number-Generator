@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: rgb(17, 0, 255);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#btn{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: 2.10s;
+}
+#btn:hover{
+    background-color: burlywood;
+}
+.mylabels{
+    font-size: 3em;
+}
+@media screen and (max-width: 375px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #btn {
+        font-size: 2em;
+        padding: 10px 20px;
+    }
+
+    .mylabels {
+        font-size: 2em;
+    }
+
+    body {
+        text-align: center;
+        padding: 10px;
+    }
+}
